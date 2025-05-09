@@ -34,7 +34,6 @@ h2 {
   margin-bottom: 20px;
 }
 .left {
-  flex: 1 1 100%;
   width: 25%;
   background-color: #4e5c90;
   color: #eaeff5;
@@ -42,8 +41,18 @@ h2 {
   overflow-y: auto;
   box-sizing: border-box;
 }
+.score {
+  margin-left: 104px; /* Khoảng cách giữa số và sao */
+}
+
+.star {
+  font-size: 14px;
+  color: #a3aac4;
+  position: relative;
+  top: -1px;
+}
+
 .right {
-  flex: 1 1 100%;
   width: 75%;
   background-color: #eaeff5;
   color: #333;
